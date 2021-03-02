@@ -6,19 +6,8 @@ import static io.restassured.RestAssured.given;
 
 public class AuthTest {
 
-    private static final String TOKEN = "ffe40f443c32334a15e41c7acf17fe60e2e43c76";
+    private static final String TOKEN = "YOUR_TOKEN";
 
-//    @Test
-//    public void basicAuth() {
-//        given()
-//                .auth()
-//                .preemptive()
-//                .basic("MarcinSia","Ekonometria7!")
-//                .when()
-//                .get("https://api.github.com/user")
-//                .then()
-//                .statusCode(200);
-//    }
     @Test
     public void bearerToken(){
         given()
